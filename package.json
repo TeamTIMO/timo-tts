@@ -1,0 +1,15 @@
+{
+  "name": "timo-tts",
+  "version": "1.0.0",
+  "description": "Spielt auf der Soundkarte den Text ab, der vom mqtt-broker kommt, wenn der type \"text\" ist.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^2.18.8",
+    "say": "^0.15.0"
+  }
+}
